@@ -40,16 +40,21 @@ If you are using **Windows**, you can install Linux through the [Microsoft Store
 
 **Windows**  (via WSL linux)
 1. Open the Linux terminal.  
-2. Update the system packages:
+2. Update the system packages and install R:
    ```bash
    sudo apt update && sudo apt upgrade -y  # updates package lists + upgrades existing packages
    sudo apt install -y r-base              # installs R and Rscript
    R --version                             # shows installed R version
    Rscript --version                       # shows installed Rscript version
    ```
-
+3. In VS Code you can open the linux terminal and run the R script with the following command:   
+  ```bash
+  Rscript nameOfTheFile.r  #replace the name of the file with your R file name please
+  ``` 
 **MacOS**  
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install r
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew install r
+  ```
 
 
