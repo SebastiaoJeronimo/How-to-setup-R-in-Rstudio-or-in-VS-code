@@ -30,9 +30,26 @@ This repo aims to instruct people on how to setup R in different IDEs.
 ### Install VS Code
 [Install VS Code](https://code.visualstudio.com/)
 
-### Install Linux 
-You can install linux on the Microsoft store if you have windows, If you have MacOs please skip this step your command
-line should allow you to install everything that is necessary. (R linux packages)
+### Install Linux
+
+If you are using **Windows**, you can install Linux through the [Microsoft Store](https://apps.microsoft.com/) by searching for a Linux distribution such as **Ubuntu**.
+
+**Note (MacOS users):** You don’t need to install Linux. macOS is Unix-based, so your terminal already supports installing the necessary tools. The recommended way to install R packages and dependencies on macOS is by using Homebrew or the official CRAN installer.  
 
 ### Install R in Linux
-Steps to set up R in Linux go here.
+
+**Windows**  (via WSL linux)
+1. Open the Linux terminal.  
+2. Update the system packages:
+   ```bash
+   sudo apt update && sudo apt upgrade -y  # updates package lists + upgrades existing packages
+   sudo apt install -y r-base              # installs R and Rscript
+   R --version                             # shows installed R version
+   Rscript --version                       # shows installed Rscript version
+   ```
+
+**MacOS**  
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install r
+
+
