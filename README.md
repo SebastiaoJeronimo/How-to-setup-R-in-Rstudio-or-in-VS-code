@@ -18,20 +18,21 @@ This repo aims to instruct people on how to setup R in different IDEs.
 ## RStudio
 
 ### Install RStudio
-Steps to install RStudio go here.
+[Install RStudio](https://posit.co/download/rstudio-desktop/)
 
 ### Setup R in Windows
-Steps to configure R on Windows go here.
+[Install R](https://posit.co/download/rstudio-desktop/)
 
 ---
 
 ## VS Code
 
 ### Install VS Code
-Steps to install VS Code go here.
+[Install VS Code](https://code.visualstudio.com/)
 
-### Install Linux
-Steps to install Linux go here.
+### Install Linux 
+You can install linux on the Microsoft store if you have windows, If you have MacOs please skip this step your command
+line should allow you to install everything that is necessary. (R linux packages)
 
 ### Install R in Linux
 Steps to set up R in Linux go here.
