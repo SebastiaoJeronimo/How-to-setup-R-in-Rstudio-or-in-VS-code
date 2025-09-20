@@ -21,7 +21,7 @@ This repo aims to instruct people on how to setup R in different IDEs.
 [Install RStudio](https://posit.co/download/rstudio-desktop/)
 
 ### Setup R in Windows
-[Install R](https://posit.co/download/rstudio-desktop/)
+[Install R](https://cran.rstudio.com/)
 
 ---
 
