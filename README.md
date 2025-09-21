@@ -57,4 +57,5 @@ If you are using **Windows**, you can install Linux through the [Microsoft Store
   brew install r
   ```
 
-
+---  
+Try to run the R file in the repository
